@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shopping cart</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <!-- <link rel="stylesheet" href="styles"> -->
+    </head>
+    <body>
+        <h1>Shopping cart</h1>
+        <h3 class="header-buy">What do you wish to purchase?</h3>
+        <input type="text" id="buy-item" buy-item="buy-item">
+        <button id="purchase-button">Purchase</button>
+        <div id="result">   
+            <h4 id="purchase-message"><span id="purchase-item-message"></span></h4>
+        </div> 
+        
+        <div class="container">
+            <span id="itemAmount">0</span> 
+        </div>
+        
+        
+        <button id="item-add">Add item</button>
+        <button id="minus-item">Minus item</button>
+
+        <script type="module" src="purchaseItem.js"></script>
+    </body>
+</html>
